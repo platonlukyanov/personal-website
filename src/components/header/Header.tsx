@@ -1,13 +1,13 @@
 function Header() {
 	return (
 		<header className="min-w-96">
-			<div className="flex justify-start items-center gap-6">
-				<div className="rounded-full bg-slate-200 h-20 w-20"/>				<div>
+			<div className="flex justify-start flex-col md:flex-row items-center gap-6">
+				    <div className="rounded-full bg-slate-200 h-20 w-20"/>				<div>
 					<h1 className="font-bold text-4xl mb-2">
 						Платон Лукьянов{" "}
-						<span className="text-slate-400 opacity-50">| Разработчик ПО</span>
+						<span className="text-slate-400 opacity-50 block md:inline">| Разработчик ПО</span>
 					</h1>
-					<div className="text-3xl flex flex-row items-center">
+					<div className="text-3xl flex flex-col md:flex-row items-center">
                         <div className="mr-2">
 						    Уже 3 года я делаю
                         </div>
