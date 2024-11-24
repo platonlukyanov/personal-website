@@ -12,6 +12,16 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      animation: {
+        'slide-up': 'slide-up 8s linear infinite reverse',
+      },
+      keyframes: {
+        'slide-up': {
+          '0%': { transform: 'translateY(0)', opacity: "1" },
+          '50%': { transform: 'translateY(-284%)', opacity: "0.4" },
+          '100%': { transform: 'translateY(-568%)', opacity: "1" },
+        },
+      },  
     },
   },
   plugins: [],
